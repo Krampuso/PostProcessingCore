@@ -1,0 +1,607 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1697642341195187, "dur": 1633662, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697642341195398, "dur": 9242, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697642341204647, "dur": 32202, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697642341236909, "dur": 1298032, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697642342534944, "dur": 290990, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697642342825936, "dur": 2911, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697642342829639, "dur": 15, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1697642342289665, "dur": 211281, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697642342290575, "dur": 77999, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697642342479812, "dur": 4297, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697642342484112, "dur": 16829, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697642342484755, "dur": 15520, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697642342508269, "dur": 1639, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1697642342506041, "dur": 3902, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697642342829768, "dur": 321, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1697642342584665, "dur":2325, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342587012, "dur":133, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1697642342587208, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1697642342587235, "dur":654, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1697642342587935, "dur":1398, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342589334, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791343, "dur":121, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791464, "dur":39, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791503, "dur":63, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791566, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791601, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791608, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791616, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791619, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791629, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791632, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791640, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791643, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791651, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791654, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791665, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791668, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791675, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791678, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791685, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791688, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791694, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791697, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791704, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791707, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791717, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791739, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342791781, "dur":3182, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1697642342588102, "dur":1240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342589343, "dur":6083, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342595468, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697642342595474, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342595600, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697642342595608, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342597151, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1697642342600004, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1697642342600104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342600578, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1697642342602257, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1697642342602393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342602403, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1697642342604015, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1697642342604134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342604141, "dur":3023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1697642342607211, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342607324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342607570, "dur":4704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342612320, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1697642342612414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342612420, "dur":38203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1697642342650668, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342650719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342650725, "dur":23170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342673986, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342674100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342674110, "dur":24678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342698842, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342698925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342698934, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342700469, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342700540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342700546, "dur":10438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342711040, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342711117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342711124, "dur":4180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342715371, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342715434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342715441, "dur":8162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342723662, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342723738, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342723744, "dur":17434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342741247, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342741412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342741418, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342743788, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342743851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342743857, "dur":11381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342755434, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342755533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342755544, "dur":5021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342760632, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342760711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342760722, "dur":14277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1697642342775063, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1697642342775140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342775182, "dur":6887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1697642342782142, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1697642342782213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1697642342782219, "dur":3699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1697642342786006, "dur":5335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342588202, "dur":1145, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342589347, "dur":6082, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342595468, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1697642342595828, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342652870, "dur":20202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1697642342673135, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342673195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342673205, "dur":18079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342691345, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342691395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342691404, "dur":18404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342709958, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342710051, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342710058, "dur":3001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342713113, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342713165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342713171, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342715608, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342715675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342715681, "dur":1130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342716852, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342716894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342716900, "dur":24445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342741408, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342741610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342741621, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342744709, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342744842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342744852, "dur":11089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342756036, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342756109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342756143, "dur":12296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1697642342768504, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1697642342768584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1697642342768591, "dur":21348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1697642342790000, "dur":1353, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342588351, "dur":1033, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342589384, "dur":6048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342595469, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1697642342595878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342658549, "dur":19906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1697642342678519, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342678585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342678595, "dur":29930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342708584, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342708639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342708646, "dur":12717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342721406, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342721450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342721457, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342723478, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342723562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342723570, "dur":17471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342741100, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342741313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342741323, "dur":1819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342743212, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342743286, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342743297, "dur":11220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342754584, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342754660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342754675, "dur":5734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342760477, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342760546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342760556, "dur":10779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1697642342771394, "dur":18624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1697642342790021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1697642342790030, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1697642342791312, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1697642342791313, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342588408, "dur":982, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342589390, "dur":6040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342595469, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1697642342595751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342619251, "dur":19277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1697642342638588, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342638638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342638643, "dur":15980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342654669, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342654720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342654726, "dur":19074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342673859, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342673961, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342673969, "dur":24823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342698860, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342698925, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342698934, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342700351, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342700412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342700444, "dur":10149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342710659, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342710721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342710728, "dur":4428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342715217, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342715277, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342715304, "dur":6996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342722371, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342722453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342722462, "dur":2222, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342724794, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342725439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342725451, "dur":1547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342727070, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342727265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342727277, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342728443, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342728615, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342728622, "dur":13367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342742052, "dur":346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342742401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342742408, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342744915, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342744970, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342744976, "dur":12464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342757492, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342757581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342757587, "dur":16251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1697642342773897, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697642342773956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342773966, "dur":8849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1697642342782903, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1697642342782997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1697642342783005, "dur":6955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1697642342790016, "dur":1330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342588473, "dur":922, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342589395, "dur":6036, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342595468, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1697642342595676, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342604548, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1697642342606467, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1697642342606594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342606607, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1697642342610334, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697642342610433, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342610438, "dur":149098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697642342759579, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697642342759716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342759724, "dur":7438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697642342767219, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/fps.Game.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697642342767403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342767411, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/fps.Game.dll" }}
+,{ "pid":12345, "tid":5, "ts":1697642342769594, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1697642342769672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342769681, "dur":7844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1697642342777649, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1697642342777744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1697642342777762, "dur":11946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1697642342789765, "dur":1589, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342588534, "dur":889, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342589423, "dur":6021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342595469, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1697642342595746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342613565, "dur":24995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1697642342638605, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342638652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342638656, "dur":34544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342673243, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342673294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342673301, "dur":18060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342691423, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342691491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342691497, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342693022, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342693067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342693072, "dur":16953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342710093, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342710173, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342710183, "dur":11341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342721569, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342721618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342721623, "dur":19478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342741177, "dur":537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342741719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342741728, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342744456, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342744531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342744539, "dur":12261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342756867, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342756934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342756944, "dur":12946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1697642342769962, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697642342770047, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342770056, "dur":11440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1697642342781649, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697642342781780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1697642342781788, "dur":3935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1697642342785939, "dur":5401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342588561, "dur":868, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342589429, "dur":6040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342595470, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1697642342595676, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342598022, "dur":2612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1697642342600690, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1697642342600815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342600880, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1697642342602831, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1697642342602942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342602950, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1697642342605363, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1697642342605486, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342605496, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1697642342607840, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342607964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342608033, "dur":87825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342695903, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342695947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342695952, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342699795, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342699852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342699859, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342701177, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342701224, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342701228, "dur":11456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342712749, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342712818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342712828, "dur":2564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342715453, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342715515, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342715525, "dur":7926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342723511, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342723575, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342723581, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342724971, "dur":837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342725811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342725818, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342727598, "dur":611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342728213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342728251, "dur":13272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342741587, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342742160, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342742166, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342744661, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342744737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342744746, "dur":12421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342757230, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342757294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342757300, "dur":10637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342767998, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342768261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342768269, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1697642342770027, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1697642342770097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1697642342770104, "dur":13123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1697642342783290, "dur":8053, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342588636, "dur":848, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342589484, "dur":5994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342595480, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1697642342595753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342614237, "dur":21257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1697642342635541, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342635615, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342635774, "dur":770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342636584, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342636630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342636677, "dur":19405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342656139, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342656210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342656220, "dur":22292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342678579, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342678642, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342678648, "dur":30279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342708978, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342709039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342709046, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342710422, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342710580, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342710586, "dur":11269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342721906, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342721954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342721960, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342724177, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342724372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342724384, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342725628, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342725704, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342725713, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342727077, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342727412, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342727420, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342728696, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342729577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342729591, "dur":12514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342742170, "dur":1217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342743392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342743402, "dur":11404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342755097, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342755174, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342755183, "dur":5845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342761086, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/fps.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342761280, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342761302, "dur":6882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/fps.UI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1697642342768245, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1697642342768331, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342769250, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1697642342770943, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1697642342771114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342771128, "dur":7334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1697642342778585, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1697642342778675, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342778688, "dur":3964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1697642342782716, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1697642342782792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1697642342782803, "dur":7129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1697642342789996, "dur":1362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342588679, "dur":824, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342589504, "dur":5977, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342595482, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1697642342595759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342619802, "dur":19190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1697642342639047, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342639100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342639106, "dur":34171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342673331, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342673390, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342673395, "dur":17926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342691385, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342691439, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342691444, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342692824, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342693206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342693213, "dur":6024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342699295, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342699361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342699369, "dur":10820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342710389, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342710475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342710482, "dur":4198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342714746, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342714810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342714819, "dur":7417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342722300, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342722380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342722387, "dur":18687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342741132, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342741317, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342741328, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342743383, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342743443, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342743453, "dur":11092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342754605, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342754683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342754691, "dur":2993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342757741, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342757805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342757811, "dur":10560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1697642342768503, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":9, "ts":1697642342768584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1697642342768591, "dur":21319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":9, "ts":1697642342789972, "dur":1385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342588779, "dur":728, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342589507, "dur":5928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342595469, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1697642342595724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342613248, "dur":15455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1697642342628751, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023.exe" }}
+,{ "pid":12345, "tid":10, "ts":1697642342628803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342628809, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023.exe" }}
+,{ "pid":12345, "tid":10, "ts":1697642342629899, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1697642342629979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342630165, "dur":79429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1697642342709658, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342709725, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342709733, "dur":11985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342721784, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342721862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342721866, "dur":19403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342741328, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342741514, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342741521, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342743636, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342743701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342743707, "dur":13724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342757488, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342757577, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342757584, "dur":9840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342767485, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/fps.AI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342767669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342767676, "dur":2031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/fps.AI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1697642342769770, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1697642342769835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342769843, "dur":8119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1697642342778041, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1697642342778115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342778122, "dur":3422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level2.resS" }}
+,{ "pid":12345, "tid":10, "ts":1697642342781611, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1697642342781711, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1697642342781724, "dur":8231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1697642342790011, "dur":1338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342588925, "dur":617, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342589542, "dur":5928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342595470, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1697642342595808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342625364, "dur":30356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1697642342655786, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342655838, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342655843, "dur":18294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342674192, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342674263, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342674271, "dur":17533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342691862, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342691946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342691952, "dur":1665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342693672, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342693725, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342693730, "dur":5784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342699575, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342699638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342699646, "dur":1248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342700951, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342701010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342701017, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342702112, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342702201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342702207, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342703027, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342703068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342703072, "dur":3265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342706380, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342706427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342706450, "dur":6335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342712853, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342712918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342712925, "dur":9179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342722173, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342722232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342722239, "dur":19099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342741627, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342741796, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342741802, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342744519, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342744598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342744605, "dur":12467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342757133, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342757202, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342757208, "dur":10954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342768237, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342768301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342769468, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1697642342770809, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1697642342770872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342770880, "dur":7182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1697642342778137, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1697642342778228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342778736, "dur":4432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level2" }}
+,{ "pid":12345, "tid":11, "ts":1697642342783227, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1697642342783303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1697642342783310, "dur":6362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1697642342789734, "dur":1605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342588946, "dur":601, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342589547, "dur":5897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342595469, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1697642342595965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342659087, "dur":19406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1697642342678549, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342678610, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342678616, "dur":29938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342708613, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342708673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342708679, "dur":1305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342710042, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342710100, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342710109, "dur":11664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342721829, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342721888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342721897, "dur":19253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342741219, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342741411, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342741418, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342743309, "dur":520, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342743832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342743839, "dur":12115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342756051, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342756127, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342756142, "dur":10728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342766936, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/fps.Gameplay.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342767182, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342767193, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/Managed/fps.Gameplay.dll" }}
+,{ "pid":12345, "tid":12, "ts":1697642342768719, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1697642342768786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342768793, "dur":6567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1697642342775425, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1697642342775486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342775492, "dur":6934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/level3.resS" }}
+,{ "pid":12345, "tid":12, "ts":1697642342783283, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1697642342783631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1697642342783676, "dur":6506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/alexa/OneDrive/Desktop/DIG3480Assignments/Build4Final/FPS Fall2023_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1697642342790235, "dur":1109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1697642342796413, "dur":2824, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1697642342830181, "dur": 6008, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1697642342829626, "dur": 6603, "ph": "X", "name": "Write chrome-trace events", "args": {} },
